@@ -1,11 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Christine Désiront</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="./appIndex.js" defer></script>
+    <!-- <link rel="stylesheet" href="./CSS/styleCarteDynamique.css"> -->
 </head>
 <body>
-    <h1>Hello world01</h1>
+    <nav class="navbar" role="navigation" >
+        <div class="navbarLogo"><a href="/index.html">Christine Désiront</a></div>
+        <ul class="navbarLinks">
+            <li class="navLinks navbarAqua"><a href="index.html#aquarelles"> Aquarelles </a></li>
+            <li class="navLinks navbarHuile"><a href="index.html#huiles"> Huile sur toile </a></li>
+            <li class="navLinks navbarContact"><a href="index.html#contact"> Contact </a></li>
+        </ul>
+    </nav>
+    <section class="paralax">
+        <img class="imageBackground" src="./IMG/parallaxIndex/imageOriginal.png" alt="">
+        <h1 class="lastName">Désiront</h1>
+        <h1 class="firstName">Christine</h1>
+        <img class="imageFront" src="./IMG/parallaxIndex/frontBas.png" alt="">
+        <img class="imageOiseauBas" src="./IMG/parallaxIndex/oiseauBas.png" alt="">
+        <img class="imageOiseauHaut" src="./IMG/parallaxIndex/oiseauHaut.png" alt="">
+        <img class="imageOiseauMid" src="./IMG/parallaxIndex/oiseauMidSolo.png" alt="">
+    </section>
+    <section class="presentation">
+        <p>J’ai commencé à peindre en 2017, j’avais cette envie depuis mon enfance.</p><br>
+        <p>J’ai fréquenté plusieurs ateliers d’aquarelle pendant trois ans.
+            J’ai eu la chance d’y rencontrer mon cher professeur d’aquarelle et de dessin Jacques Grégoire, regretté de tous.
+            Mais pas que :</p><br>
+            <p>A mes tout débuts l’atelier » Hougardy » de Momalle , où je me suis fait beaucoup d’amis et amies et au fil du temps ; 
+                L’atelier Frédéric Bage ; Quelques stages avec l’excellent aquarelliste Cao Be An,...</p><br>
+                <p>Actuellement, j’ai opté pour la peinture à l’huile miscible à l’eau.
+                    Je suis très fascinée, et inspirée par le peintre William Turner.</p><br>
+                    <p>Je continuerais mon chemin artistique en essayant à tout prix d’améliorer ma technique et mon style.</p><br>
+                    <p> Artistiquement votre !</p>
+    </section>
+                <!-- ------------carte aquarelle et huile-------- -->
+    <div id="aquarelles"></div>            
+    <section class="CarteDyna">
+        <div class="wrapper">
+            <div class="single-card">
+                <h2>Aquarelles</h2>
+                <div class="front">
+                    <img src="./IMG/Aquarelles/img1.jpg" alt=""></div>
+                <div class="back">
+                    <div class="content">
+                        <p>Peintures à l'eau, translucides,</p>
+                        <p>créant des œuvres lumineuses.</p>
+                        <div class="container">
+                            <div class="card">
+                                <div class="contentCard">
+                                    <a href="./HTML/Aquarelle.html" target="_blank" class="btnCard">Aquarelles</a>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <civ id="huiles"></civ>
+        <div class="wrapper">
+            <div class="single-card">
+                <h2>Huiles sur toile</h2>
+                <div class="front">
+                    <img src="./IMG/Huile_sur_toile/Foret_sur_le_lac.jpg" alt=""></div>
+                <div class="back">
+                    <div class="content">
+                        <p>Peintures à l'huile : technique </p> 
+                        <p>artistique classique et durable.</p>
+                        <div class="container">
+                            <div class="card">
+                                <div class="contentCard">
+                                    <a href="./HTML/Huile.html" class="btnCard">Huiles sur toile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="btnAqua"><a href="" class="btnCard">Huile sur toile</a></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------CONTACT------------------------------------- -->
+    <div id="contact"></div>
+    <footer>
+        <div class="iconSocial">
+            <div class="containerSocial">
+                <a href="mailto:christine-desiront@hotmail.com?subject=HTML link" ><img src="./IMG/Icones/mail.png" alt="" class="envelope"></a>
+                <a href="https://www.instagram.com/christinedesiront/" target="_blank" ><img src="./IMG/Icones/instagramBlanc.png" alt="" class="insta"></a>
+                <a href="https://www.facebook.com/christine.desiront" target="_blank" ><img src="./IMG/Icones/facebookBlanc.png" alt="" class="face"></a>
+            </div>
+        </div>
+        <div class="deuxiemeTrait"></div>
+        <div class="copyrightEtIcons">
+            <div class="espaceFin">
+                <li><a href="#" class="returnUp">Retour haut de page</a></li>
+            </div>
+            <div class="deuxiemeTrait01"></div>
+            <div class="copyright">
+                <span>© From Christine Désiront: 2023</span>
+            </div>            
+        </div>
+    </footer>
+    
 </body>
 </html>
