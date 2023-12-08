@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;   
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    z-index: 100;
+    position:fixed;
+    background: linear-gradient(to bottom, #29282c, rgb(19, 19, 19));
+}
+.navbarLinks{
+    width: 70%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+.navbarLogo {
+    width: 35%;
+    font-family: 'Dancing Script' , sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 24px;
+    transform: translate(-10px -50px);
+}
