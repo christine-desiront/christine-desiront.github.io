@@ -25,3 +25,35 @@
     padding-left: 24px;
     transform: translate(-10px -50px);
 }
+
+
+@media (max-width: 580px){
+    .navbar {
+        display: none;
+    }
+    .navbarLinks{
+        display: none;
+    }
+    .navbarLogo {
+        display: none;
+    }
+
+    .navbarB{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    padding-top: 125px;
+    width: 100vw;
+    z-index: 100;
+    position:fixed;
+    background:rgb(87, 87, 87);
+    }
+    .navbarLinksB{
+        display: flex;
+    }
+
+    .navbarLogoB {
+        padding-top: 100px;
+        display: flex;
+    }
+}
