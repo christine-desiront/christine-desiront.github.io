@@ -38,7 +38,9 @@ body {
     background: linear-gradient(to bottom, #29282c, transparent);
     backdrop-filter: blur(5px);
 }
-
+.navbarHuileSans{
+    display: none;
+}
 .navbarLinks{
     width: 70%;
     display: flex;
@@ -46,6 +48,13 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding-right: 40px;
+}
+.IMGlogo{
+    height: 35px;
+    width: 35px;
+}
+.navbarLogoB{
+    display: none;
 }
 .navbarLogo {
     width: 35%;
@@ -479,6 +488,20 @@ footer .iconSocial a img{
     }
 }
 @media (max-width: 750px){
+    .navbarLogo{
+    display: none;
+    padding-left: 4px;   
+    }
+    .navbarLogoB{
+    display: flex;
+    flex-direction: column;  
+    }
+    .navbarLogoB{
+        display:contents;
+        float: left;
+        padding-left: 4px;
+        
+    }
     .lastName{
         font-size: 125px;
         font-weight: 900;
@@ -494,6 +517,9 @@ footer .iconSocial a img{
     }
 }
 @media (max-width: 450px){
+    .navLinksContact{
+        display: none;
+    }
     .paralax{
         width: clamp(150px 100% 80%);
         height: 150vh;
@@ -578,23 +604,24 @@ footer .iconSocial a img{
     }
 }
 @media (max-width: 365px){
+    .navbarHuileSans{
+        display: contents;
+    }
+    .navbarHuileToile{
+        display: none;
+    }
     .navbar {
         padding-top: 10px;
         padding-bottom: 10px;
-        width: 100vw;
         display: flex;   
     }
     .navbarLinks{
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
         padding-right: 0px;
-        font-size: 11px;
-    }
-    .navbarLogo {
-        font-family: 'Dancing Script' , sans-serif;
-        font-weight: 700;
-        font-size: 14px;
+        font-size: 1rem;
+        gap: 1rem;
     }
     .lastName{
         transform: translateY(570px);
