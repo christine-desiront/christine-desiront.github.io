@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;   
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    z-index: 100;
+    position:fixed;
+    background: linear-gradient(to bottom, #29282c, rgb(19, 19, 19));
+}
+.navbarHuileSans{
+    display: none;
+}
+.navbarLinks{
+    width: 70%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+.navbarContact{
+    display:contents;
+}
+.IMGlogo{
+    height: 35px;
+    width: 35px;
+}
+.navbarLogoB{
+    display: none;
+}
+.navbarLogo {
+    width: 35%;
+    font-family: 'Dancing Script' , sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 24px;
+    transform: translate(-10px -50px);
+}
+@media (max-width: 580px){
+    .IMGlogo{
+        margin-top: 20px;
+    }
+    .navbarLogoB{
+        display:contents;
+        }
+    .navbarLogo{
+        display: none;
+        padding-left: 4px;   
+        }
+    .navbarContact{
+        display:none;
+    }
+    .navbar {
+        display: none;
+    }
+    .navbarLinks{
+        display: none;
+    }
+    .navbarLogo {
+        display: none;
+    }
+
+    .navbarB{
+    display: flex;   
+    align-items: center;
+    width: 100vw;
+    }
+    .navbarLinksB{
+        display: flex;
+    }
+
+    
+}
