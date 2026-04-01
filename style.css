@@ -131,7 +131,7 @@ body {
     top: -80px;
     width: 100%;
     height: 80px;
-    background: linear-gradient(to top, #b97a47, transparent);
+    background: linear-gradient(to top, #ad784f, transparent);
     z-index: 10;
 }
 .presentation {
@@ -139,13 +139,13 @@ body {
     position: relative;
     width: 100%;
     height: 30vh;
-    background-color:#b97a47;
-    padding: 90px 0px 300px 0px;
+    background-color:#ad784f;
+    padding: 90px 0px 200px 0px;
 }
 .presentation p{
     text-align: center;
     font-size: 1.3rem;
-    padding: 0px 15%;
+    padding: 0px ;
 }
 /* --------------------------Section Lien carte flip------------------------------- */
 .CarteDyna {
@@ -159,10 +159,10 @@ body {
     gap: 50px;
     /* perspective: 900px;
     transform-style: preserve-3d; */
-    background-color: #b97a47;
+    background-color: #ad784f;
     background: linear-gradient(
         to bottom,
-        #b97a47,
+        #ad784f,
         #302f34,
         #29282c);
 }
