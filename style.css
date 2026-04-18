@@ -138,18 +138,18 @@ body {
     z-index: 10;
     position: relative;
     width: 100%;
-    height: 30vh;
+    
     background-color:#ad784f;
-    padding: 90px 0px 200px 0px;
+    padding: 90px 0px 0px 0px;
 }
 .presentation p{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     padding: 0px ;
 }
 /* --------------------------Section Lien carte flip------------------------------- */
 .CarteDyna {
-    padding: 60px 10%;
+    padding: 0px 10%;
     min-height: 600px;
     height: auto;
     display: flex;
@@ -467,7 +467,16 @@ footer .iconSocial a img{
     padding-top: 25px;
 }
 @media (max-width: 900px){
-
+    .presentation {
+        width: 100%;
+        padding: 90px 0px 00px 0px;
+        font-size: 1.3rem;
+    }
+    .presentation p{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0px 5%;
+    }
     .CarteDyna {
         padding-top: 50px;
         padding-right: 10%;
@@ -489,13 +498,11 @@ footer .iconSocial a img{
     }
     .navbarLogoB{
     display: flex;
-
     }
     .navbarLogoB{
         display:contents;
         float: left;
-        padding-left: 4px;
-        
+        padding-left: 4px;   
     }
     .lastName{
         font-size: 125px;
@@ -505,11 +512,12 @@ footer .iconSocial a img{
         font-size: 125px;
         font-weight: 900;
     }
-    .presentation {
-        width: 100%;
-        height: 40vh;
-        padding: 90px 0px 400px 0px;
+        .presentation p{
+        text-align: center;
+        font-size: 16px;
+        padding: 0px 5%;
     }
+  
 }
 @media (max-width: 450px){
     .navLinksContact{
@@ -586,11 +594,12 @@ footer .iconSocial a img{
         flex-wrap: nowrap;
         gap: 40px;
     }
-    .presentation {
-        width: 100%;
-        height: 65vh;
-        padding: 90px 0px 400px 0px;
+    .presentation p{
+        text-align: center;
+        font-size: 1rem;
+
     }
+    
     .containerSocial{
         gap: 40px;
         padding: 10px 0px;
@@ -628,7 +637,7 @@ footer .iconSocial a img{
         font-size: 60px;
         font-weight: 900;
     }
-    .presentation::before{
+    /* .presentation::before{
         content: '';
         position: absolute;
         top: -80px;
@@ -636,19 +645,17 @@ footer .iconSocial a img{
         height: 80px;
         background: linear-gradient(to top, #b97a47, transparent);
         z-index: 10;
-    }
+    } */
     .presentation {
         width: 100%;
-        height: 50vh;
-        padding: 90px 0px 100% 0px;
     }
     .presentation p{
         text-align: center;
         font-size: 1rem;
-        padding: 0px 5%;
+        
     }
     .CarteDyna {
-        padding-top: 30px;
+        padding-top: 10px;
         padding-right: 0;
         padding-left: 0;
         padding-bottom: 30px;
